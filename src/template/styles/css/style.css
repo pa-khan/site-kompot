@@ -52,11 +52,11 @@ img {
   display: inline-block;
   vertical-align: middle; }
 
-.text, .btn, .slick-slide, .area {
+.input input, .btn, .slick-slide, .textarea textarea {
   outline: none; }
 
 /* Grid */
-.container {
+.case {
   position: relative;
   width: 1170px;
   padding-left: 15px;
@@ -86,35 +86,36 @@ img {
     min-height: 1px; }
 
 /* Form elements */
-.text {
+.input input {
   display: block;
   font-size: 16px;
   font-family: "Tahoma", sans-serif;
   background: white;
   width: 100%; }
-  .text::-webkit-input-placeholder {
+  .input input::-webkit-input-placeholder {
     color: #878686; }
-  .text::-moz-placeholder {
+  .input input::-moz-placeholder {
     color: #878686; }
-  .text:-ms-input-placeholder {
+  .input input:-ms-input-placeholder {
     color: #878686; }
-  .text::placeholder {
+  .input input::placeholder {
     color: #878686; }
 
-.area {
+.textarea textarea {
   font-size: 16px;
   font-family: "Tahoma", sans-serif;
   display: block;
   background: white;
   resize: none;
-  border: 1px solid #f0f0f0; }
-  .area::-webkit-input-placeholder {
+  border: 1px solid #f0f0f0;
+  width: 100%; }
+  .textarea textarea::-webkit-input-placeholder {
     color: #878686; }
-  .area::-moz-placeholder {
+  .textarea textarea::-moz-placeholder {
     color: #878686; }
-  .area:-ms-input-placeholder {
+  .textarea textarea:-ms-input-placeholder {
     color: #878686; }
-  .area::placeholder {
+  .textarea textarea::placeholder {
     color: #878686; }
 
 .btn {
@@ -129,9 +130,9 @@ img {
   -webkit-transition: .3s;
   transition: .3s; }
 
-.text, .area {
-  -webkit-transition: border-color .3s;
-  transition: border-color .3s; }
+.input input, .textarea textarea {
+  -webkit-transition: .3s;
+  transition: .3s; }
 
 /* Blocks */
 .left {
@@ -140,6 +141,6 @@ img {
 .right {
   float: right; }
 
-.mid, .container {
+.mid, .case {
   margin-left: auto;
   margin-right: auto; }
