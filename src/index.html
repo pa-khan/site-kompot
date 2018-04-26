@@ -21,41 +21,42 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="panel">
-		<div class="case row">
-			<div class="panel__logo logo col">
-				<div class="logo__img"><img src="" alt=""></div>
-				<div class="logo__text"><strong>Китайский</strong> компот</div>
-			</div>
-			<div class="panel__nav col">
-				<ul>
-					<li><a href="">Преимущества</a></li>
-					<li><a href="">Наше предложение</a></li>
-					<li><a href="">О нас</a></li>
-					<li><a href="">Партнеры</a></li>
-					<li><a href="">Отзывы</a></li>
-				</ul>
-			</div>
-			<div class="panel__contacts col">
-				<div class="panel__phone"><i></i><a href="tel:+380638228730">+38 063 822 87 30</a></div>
-				<a href="" class="panel__btn btn btn_border-white">Звонок в skype</a>
-			</div>
-		</div>
-	</div>
 	<header class="header">
-		<div class="case">
-			<div class="header__desc">Медиахолдинг</div>
-			<div class="header__title">китайский компот</div>
-			<div class="header__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков, Таобао, АлиЭкспресс и многое другое.</div>
-			<a href="" class="header__btn btn btn_red btn_big">Узнать подробнее</a>
-			<div class="header__mouse"></div>
+		<div class="panel">
+			<div class="case row">
+				<div class="panel__logo logo col">
+					<div class="logo__img"><img src="upload/logo.png" alt=""></div>
+					<div class="logo__text"><strong>Китайский</strong> компот</div>
+				</div>
+				<div class="panel__nav nav col">
+					<ul>
+						<li><a href="#packs">Наши предложения</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#partners">Партнеры</a></li>
+						<li><a href="#reviews">Отзывы</a></li>
+					</ul>
+				</div>
+				<div class="panel__contacts right col">
+					<div class="panel__phone"><i class="icon icon-phone"></i><a href="tel:+380638228730">+38 063 822 87 30</a></div>
+					<a data-fancybox data-src="#popup-order" href="javascript:;"  class="panel__btn btn btn_border-white btn_small">Звонок в skype</a>
+				</div>
+			</div>
 		</div>
+		<div class="header__wrap">
+			<div class="case">
+				<div class="header__desc">Медиахолдинг</div>
+				<div class="header__title">китайский компот</div>
+				<div class="header__text mid">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков, Таобао, АлиЭкспресс и многое другое.</div>
+				<a data-fancybox data-src="#popup-order" href="javascript:;"  class="header__btn btn btn_red btn_hover-white btn_big mid">Узнать подробнее</a>
+			</div>
+		</div>
+		<div class="header__mouse"></div>
 	</header>
 
 	<main class="main">
 		<div class="packs">
 			<div class="case">
-				<div class="packs__title title">Наши предложения</div>
+				<div class="packs__title title" id="packs">Наши предложения</div>
 				<div class="packs__list flex">
 					<div class="packs__item">
 						<div class="packs__subtitle">Базовый</div>
@@ -67,14 +68,14 @@
 								<li>AD4 800х60 — 4 200 юаней</li>
 							</ul>
 						</div>
-						<div class="packs__desc">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом</div>
+						<div class="packs__desc">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем.</div>
 						<div class="packs__price">
 							<div class="packs__price-old"><span>100500</span>RMB</div>
 							<div class="packs__price-new"><span>2 999</span> RMB</div>
 						</div>
-						<a href="" class="packs__btn btn btn_black btn_normal">Выбрать пакет</a>
+						<a href="" class="packs__btn btn btn_black btn_hover-red btn_normal">Выбрать пакет</a>
 					</div>
-					<div class="packs__item">
+					<div class="packs__item packs__item_big">
 						<div class="packs__subtitle packs__subtitle_red">Продвинутый</div>
 						<div class="packs__data">
 							<ul>
@@ -84,12 +85,12 @@
 								<li>AD4 800х60 — 4 200 юаней</li>
 							</ul>
 						</div>
-						<div class="packs__desc">и среднем бизнесе с Китаем. </div>
+						<div class="packs__desc">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем.</div>
 						<div class="packs__price">
 							<div class="packs__price-old"><span>100500</span>RMB</div>
 							<div class="packs__price-new packs__price-new_red"><span>2 999</span> RMB</div>
 						</div>
-						<a href="" class="packs__btn btn btn_red btn_normal">Выбрать пакет</a>
+						<a href="" class="packs__btn btn btn_red btn_hover-black btn_normal">Выбрать пакет</a>
 					</div>
 					<div class="packs__item">
 						<div class="packs__subtitle">Премиальный</div>
@@ -101,12 +102,12 @@
 								<li>AD4 800х60 — 4 200 юаней</li>
 							</ul>
 						</div>
-						<div class="packs__desc"></div>
+						<div class="packs__desc">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем.</div>
 						<div class="packs__price">
 							<div class="packs__price-old"><span>100500</span>RMB</div>
 							<div class="packs__price-new"><span>2 999</span> RMB</div>
 						</div>
-						<a href="" class="packs__btn btn btn_black btn_normal">Выбрать пакет</a>
+						<a href="" class="packs__btn btn btn_black btn_hover-red btn_normal">Выбрать пакет</a>
 					</div>
 				</div>
 			</div>
@@ -114,10 +115,10 @@
 		<div class="brand">
 			<div class="case">
 				<div class="brand__wrap row">
-					<div class="brand__img col right"><img src="" alt=""></div>
+					<div class="brand__img col right"><img src="upload/loptop.png" alt=""></div>
 					<div class="brand__text text col">
 						<p>	Брендирование сайта — современный формат рекламы при котором в дизайн сайта встраивается фирменный стиль компании. Брендирование знакомит всех посетителей сайта с брендом и играет роль в формировании лояльности и узнаваемости. Рассчитано на долгосрочную перспективу в привлечении клиентов.</p>
-						<p>Эффективность брендирования сайта несомненно высока. Не заметить такую рекламу практически невозможно. Мы заботимся о том, чтобы брендирование не раздражало посетителя и органично вписывалось в дизайн сайта, зачастую делая его даже более интересным и ярким.<br></p>
+						<p>Эффективность брендирования сайта несомненно высока. Не заметить такую рекламу практически невозможно. Мы заботимся о том, чтобы брендирование не раздражало посетителя и органично вписывалось в дизайн сайта, зачастую делая его даже более интересным и ярким.<br><br></p>
 						<p>Цена обсуждается индивидуально.</p>
 					</div>
 					
@@ -126,9 +127,9 @@
 		</div>
 		<div class="about">
 			<div class="case">
-				<div class="about__title title">О нас</div>
+				<div class="about__title title" id="about">О нас</div>
 				<div class="about__wrap row">
-					<div class="about__img right col"></div>
+					<div class="about__img right col"><img src="upload/stat.png" alt=""></div>
 					<div class="about__text text col">
 						<p>Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</p>
 						<p>Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</p>
@@ -156,64 +157,145 @@
 			</div>
 		</div>
 		<div class="reviews">
-			<div class="case">
-				<div class="reviews__title title"></div>
+			<div class="case case_fluid">
+				<div class="reviews__title title" id="reviews">Отзывы о нас</div>
 				<div class="reviews__list">
 					<div class="reviews__item">
-						<div class="reviews__img"><img src="" alt=""></div>
-						<div class="reviews__text"></div>
-						<div class="reviews__company"></div>
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__img"><img src="" alt=""></div>
-						<div class="reviews__text"></div>
-						<div class="reviews__company"></div>
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__img"><img src="" alt=""></div>
-						<div class="reviews__text"></div>
-						<div class="reviews__company"></div>
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__img"><img src="" alt=""></div>
-						<div class="reviews__text"></div>
-						<div class="reviews__company"></div>
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__wrap">
+							<div class="reviews__img"><img src="upload/reviews/1.png"></div>
+							<div class="reviews__text">Форум о бизнесе с Китаем sinocom.ru — специализированная площадка о малом и среднем бизнесе с Китаем. Существует с 2008 года. Покрывает весь спектр вопросов логистики(дропшиппинга), посредников, поставщиков,  Таобао, АлиЭкспресс и многое другое.</div>
+							<div class="reviews__company">Таобао АлиЭкспрес</div>
+						</div>
 					</div>
 				</div>
-				<div class="reviews__logos">
-					<div class="reviews__item"><img src="" alt=""></div>
-					<div class="reviews__item"><img src="" alt=""></div>
-				</div>
-			</div>
-		</div>
-		<div class="questions">
-			<div class="case">
-				<div class="questions__title title"></div>
-				<div class="questions__desc"></div>
-				<div class="questions__elements">
-					<div class="questions__input input"><input type="text" placeholder=""></div>
-					<button class="questions__btn btn btn_black"></button>
-				</div>
-				<a href="" class="questions__all btn btn_red btn_big">Все услуги здесь</a>
-			</div>
-		</div>
-		<div class="partners">
-			<div class="case">
-				<div class="partners__list">
-					<div class="partners__item"><img src="" alt=""></div>
+				<div class="case">
+					<div class="reviews__logos logos" id="partners">
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/1.png" alt=""></div>
+						<div class="logos__item"><img src="upload/logos/2.png" alt=""></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</main>
 
 	<footer class="footer">
-		<div class="case">
-			<div class="footer__copy">
+		<div class="questions">
+			<div class="case">
+				<div class="questions__title title">Остались вопросы?</div>
+				<div class="questions__desc mid">Нужен индивидуальный подход?  Оставляй свое Email и мы свяжемся с тобой в ближайшее время</div>
+				<div class="questions__elements">
+					<div class="questions__input input"><input type="text" placeholder="Email"></div>
+					<button class="questions__btn btn btn_black btn_normal btn_hover-red">Выбрать пакет</button>
+				</div>
+				<a data-fancybox data-src="#popup-order" href="javascript:;" class="questions__all btn btn_red btn_big btn_hover-black">Все услуги здесь</a>
+			</div>
+		</div>
+		<div class="partners">
+			<div class="case">
+				<div class="partners__list">
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+					<div class="partners__item"><img src="upload/partners/1.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copy copy">
+			<div class="case">
 				<p>Если вы увидели ошибку или опечатку, помогите нам ее исправить! Выделите ошибку и нажмите одновременно клавиши «Ctrl» и «Enter». </p>
 				<p>Мы узнаем о неточности и как можно скорее исправим.</p>
 				<p>CHINA SMM © All Rights Reserved, 2014-2017, ОГРН: 1147748136370, ИНН: 7726044145</p>
 			</div>
 		</div>
 	</footer>
+	<div class="popup popup_order" id="popup-order">
+		<div class="popup__title">Заполните форму</div>
+		<div class="popup__wrap">
+			<div class="popup__input input"><input type="text" placeholder="Имя"></div>
+			<div class="popup__input input input_tel"><input type="text" placeholder="Телефон*"></div>
+			<div class="popup__input input"><input type="text" placeholder="Почта"></div>
+			<button class="popup__btn btn btn_normal btn_red btn_hover-black">Отправить</button>
+		</div>
+	</div>
+	<div class="popup popup_thanks" id="popup-thanks">
+		<div class="popup__title">Спасибо!</div>
+		<div class="popup__desc">Скоро мы свяжемся с Вами.</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.icon-mouse-scroll {
+  background-image: url(../../img/sprite.png);
+  background-position: -27px -11px;
+  width: 6px;
+  height: 13px; }
+
+.icon-mouse {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -23px;
+  width: 18px;
+  height: 29px; }
+
+.icon-phone {
+  background-image: url(../../img/sprite.png);
+  background-position: -27px 0px;
+  width: 11px;
+  height: 11px; }
+
+.icon-quote {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 27px;
+  height: 23px; }

@@ -17,8 +17,8 @@ $mouse-scroll-width: 6px
 $mouse-scroll-height: 13px
 $mouse-scroll-total-width: 38px
 $mouse-scroll-total-height: 52px
-$mouse-scroll-image: '../../img/sprite.png'
-$mouse-scroll: (27px, 11px, -27px, -11px, 6px, 13px, 38px, 52px, '../../img/sprite.png', 'mouse-scroll', )
+$mouse-scroll-image: 'sprite.png'
+$mouse-scroll: (27px, 11px, -27px, -11px, 6px, 13px, 38px, 52px, 'sprite.png', 'mouse-scroll', )
 $mouse-name: 'mouse'
 $mouse-x: 0px
 $mouse-y: 23px
@@ -28,8 +28,8 @@ $mouse-width: 18px
 $mouse-height: 29px
 $mouse-total-width: 38px
 $mouse-total-height: 52px
-$mouse-image: '../../img/sprite.png'
-$mouse: (0px, 23px, 0px, -23px, 18px, 29px, 38px, 52px, '../../img/sprite.png', 'mouse', )
+$mouse-image: 'sprite.png'
+$mouse: (0px, 23px, 0px, -23px, 18px, 29px, 38px, 52px, 'sprite.png', 'mouse', )
 $phone-name: 'phone'
 $phone-x: 27px
 $phone-y: 0px
@@ -39,8 +39,8 @@ $phone-width: 11px
 $phone-height: 11px
 $phone-total-width: 38px
 $phone-total-height: 52px
-$phone-image: '../../img/sprite.png'
-$phone: (27px, 0px, -27px, 0px, 11px, 11px, 38px, 52px, '../../img/sprite.png', 'phone', )
+$phone-image: 'sprite.png'
+$phone: (27px, 0px, -27px, 0px, 11px, 11px, 38px, 52px, 'sprite.png', 'phone', )
 $quote-name: 'quote'
 $quote-x: 0px
 $quote-y: 0px
@@ -50,13 +50,13 @@ $quote-width: 27px
 $quote-height: 23px
 $quote-total-width: 38px
 $quote-total-height: 52px
-$quote-image: '../../img/sprite.png'
-$quote: (0px, 0px, 0px, 0px, 27px, 23px, 38px, 52px, '../../img/sprite.png', 'quote', )
+$quote-image: 'sprite.png'
+$quote: (0px, 0px, 0px, 0px, 27px, 23px, 38px, 52px, 'sprite.png', 'quote', )
 $spritesheet-width: 38px
 $spritesheet-height: 52px
-$spritesheet-image: '../../img/sprite.png'
+$spritesheet-image: 'sprite.png'
 $spritesheet-sprites: ($mouse-scroll, $mouse, $phone, $quote, )
-$spritesheet: (38px, 52px, '../../img/sprite.png', $spritesheet-sprites, )
+$spritesheet: (38px, 52px, 'sprite.png', $spritesheet-sprites, )
 
 // The provided mixins are intended to be used with the array-like variables
 //
@@ -108,13 +108,3 @@ $spritesheet: (38px, 52px, '../../img/sprite.png', $spritesheet-sprites, )
     $sprite-name: nth($sprite, 10)
     .#{$sprite-name}
       @include sprite($sprite)
-
-.icon-
-  &mouse-scroll
-    @include sprite($mouse-scroll)
-  &mouse
-    @include sprite($mouse)
-  &phone
-    @include sprite($phone)
-  &quote
-    @include sprite($quote)
